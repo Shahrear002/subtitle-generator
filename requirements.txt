@@ -1,0 +1,11 @@
+# AI Subtitle Generator - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core AI/ML - Faster Whisper for optimized transcription
+faster-whisper>=1.2.1
+
+# GUI Framework
+customtkinter>=5.0.0
+
+# Note: FFmpeg is bundled with the installer, no separate installation needed
+# faster-whisper automatically installs: av, ctranslate2, huggingface-hub, onnxruntime, tokenizers, tqdm
