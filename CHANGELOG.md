@@ -38,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Version History
 
-- **1.0.0** - Initial Release (January 14, 2026)
+- **1.0** - Initial Release (January 14, 2026)
 
 ---
 
