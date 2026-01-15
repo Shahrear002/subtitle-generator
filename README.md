@@ -36,7 +36,7 @@
 
 <div align="center">
 
-![Application Screenshot](./assets/screenshot.png)
+![Application Screenshot](./assets/Screenshot.png)
 
 *Clean, simple interface - just select your video and generate subtitles*
 
@@ -46,12 +46,13 @@
 
 ### Windows
 
-1. Download the latest `.exe` installer from the [Releases](../../releases) page
+1. Download `AISubtitleGenerator.exe` from the [Releases](../../releases) page
 2. Run the installer and follow the setup wizard
-3. **Important:** Make sure [FFmpeg](https://ffmpeg.org/download.html) is installed on your system
-   - Download FFmpeg and add it to your system PATH
-   - Or use a package manager: `winget install ffmpeg` or `choco install ffmpeg`
-4. Launch Subtitle Generator from your Start Menu or Desktop
+3. Launch Subtitle Generator from your Start Menu or Desktop
+4. Start generating subtitles!
+
+> [!NOTE]
+> Everything is included - FFmpeg is bundled, no additional software needed!
 
 ### macOS (Coming Soon)
 
@@ -62,7 +63,7 @@ macOS `.dmg` installer will be available in future releases.
 - **OS:** Windows 10/11 (64-bit) or macOS 10.15+
 - **RAM:** 4GB minimum (8GB recommended)
 - **Storage:** 2GB free space
-- **Dependencies:** FFmpeg (required)
+- **Dependencies:** None - everything is included!
 
 ## 📝 Usage
 
@@ -99,12 +100,6 @@ macOS `.dmg` installer will be available in future releases.
 5. The subtitle file is saved to your chosen location
 
 ## 🐛 Troubleshooting
-
-### "FFmpeg not found" Error
-
-**Solution:** Install FFmpeg and ensure it's in your system PATH
-- Windows: Download from [ffmpeg.org](https://ffmpeg.org/download.html) and add to PATH
-- Or use: `winget install ffmpeg`
 
 ### Subtitles are Inaccurate
 
